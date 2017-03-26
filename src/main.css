@@ -1,0 +1,35 @@
+body {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  color: #293c4b;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+.row {
+  height: 32px;
+}
+
+.tile {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+.Wall {
+  background-color: #ccc;
+}
+
+.snake {
+  background: lightcoral;
+}
+
+.food {
+  background-image: url('/static/snake/food.ico');
+
+}
